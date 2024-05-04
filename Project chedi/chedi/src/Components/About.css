@@ -1,0 +1,26 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imagee {
+    flex: 1;
+    padding: 20px;
+    text-align: center; /* Center the image horizontally */
+  }
+  
+  .imagein {
+    max-width: 100%; /* Set maximum width to 100% of its container */
+    max-height: 650px; /* Set maximum height to control the image size */
+    height: auto;
+     /* Maintain aspect ratio */
+  }
+  
